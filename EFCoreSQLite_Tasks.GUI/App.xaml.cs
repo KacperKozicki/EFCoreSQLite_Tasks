@@ -20,7 +20,7 @@ namespace EFCoreSQLite_Tasks.GUI
             using (var taskContext = new TaskContext())
             {
                 // Usunięcie bazy danych, jeśli istnieje
-                //bool deleted = await taskContext.Database.EnsureDeletedAsync();
+                bool deleted = await taskContext.Database.EnsureDeletedAsync();
                 //MessageBox.Show($"Baza skasowana. {deleted}");
 
                 // Utworzenie bazy danych, jeśli nie istnieje

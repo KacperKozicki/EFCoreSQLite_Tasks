@@ -103,10 +103,10 @@ namespace EFCoreSQLite_Tasks.DataAccess
             );
 
             modelBuilder.Entity<Users>().HasData(
-                new Users { Id = 1, FirstName = "admin", LastName = "admin", Password = PasswordHasher.HashPassword("a"), RoleId = 1 },
-                new Users { Id = 2, FirstName = "kierownik", LastName = "ssss", Password = PasswordHasher.HashPassword("k"), RoleId = 3 },
-                new Users { Id = 3, FirstName = "pracownik", LastName = "www", Password = PasswordHasher.HashPassword("p"), RoleId = 2 },
-                new Users { Id = 4, FirstName = "gosc", LastName = "www", Password = PasswordHasher.HashPassword("g"), RoleId = 2 }
+                new Users { Id = 1, FirstName = "admin", LastName = "admin", Password = PasswordHasher.HashPassword("admin"), RoleId = 1 },
+                new Users { Id = 2, FirstName = "kierownik", LastName = "Kasiasty", Password = PasswordHasher.HashPassword("kierownik"), RoleId = 3 },
+                new Users { Id = 3, FirstName = "pracownik", LastName = "Abacki", Password = PasswordHasher.HashPassword("pracownik"), RoleId = 2 },
+                new Users { Id = 4, FirstName = "gosc", LastName = "Kowalski", Password = PasswordHasher.HashPassword("gosc"), RoleId = 2 }
             );
 
             modelBuilder.Entity<Tasks>().HasData(
