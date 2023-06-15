@@ -1,4 +1,6 @@
-﻿using System;
+﻿using EFCoreSQLite_Tasks.DataAccess;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;

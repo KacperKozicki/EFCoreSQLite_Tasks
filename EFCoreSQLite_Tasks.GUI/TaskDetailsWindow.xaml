@@ -1,7 +1,7 @@
 ﻿<Window x:Class="EFCoreSQLite_Tasks.GUI.TaskDetailsWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:local="clr-namespace:EFCore_Tasks.GUI"
+        xmlns:local="clr-namespace:EFCoreSQLite_Tasks.GUI"
         Title="Task Details" Height="450" Width="800">
     <Grid>
         <StackPanel Name="stackPanelTasks" Orientation="Vertical">

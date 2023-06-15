@@ -2,10 +2,10 @@
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using EFCore_Tasks.DataAccess;
-using EFCore_Tasks.Models;
+using EFCoreSQLite_Tasks.DataAccess;
+using EFCoreSQLite_Tasks.Models;
 
-namespace EFCore_Tasks.GUI
+namespace EFCoreSQLite_Tasks.GUI
 {
     public partial class AddTaskPointDialog : Window
     {

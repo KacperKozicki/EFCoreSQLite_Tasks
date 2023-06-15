@@ -1,4 +1,4 @@
-﻿<Window x:Class="EFCore_Tasks.GUI.AddTaskPointDialog"
+﻿<Window x:Class="EFCoreSQLite_Tasks.GUI.AddTaskPointDialog"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Add Task Point" Height="224" Width="302">

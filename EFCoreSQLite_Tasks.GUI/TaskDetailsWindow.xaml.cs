@@ -1,5 +1,5 @@
-﻿using EFCore_Tasks.DataAccess;
-using EFCore_Tasks.Models;
+﻿using EFCoreSQLite_Tasks.DataAccess;
+using EFCoreSQLite_Tasks.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace EFCore_Tasks.GUI
+namespace EFCoreSQLite_Tasks.GUI
 {
     /// <summary>
     /// Okno szczegółów zadania.
