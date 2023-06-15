@@ -1,4 +1,4 @@
-﻿using EFCore_Tasks.Models;
+﻿using EFCoreSQLite_Tasks.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.IO;
