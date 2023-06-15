@@ -1,5 +1,5 @@
-﻿using EFCore_Tasks.DataAccess;
-using EFCore_Tasks.Models;
+﻿using EFCoreSQLite_Tasks.DataAccess;
+using EFCoreSQLite_Tasks.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -18,7 +18,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Globalization;
 
 
-namespace EFCore_Tasks.GUI
+namespace EFCoreSQLite_Tasks.GUI
 {
     public partial class TaskListWindow : Window, INotifyPropertyChanged
     {

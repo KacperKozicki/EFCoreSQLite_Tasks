@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EFCore_Tasks.Models
+namespace EFCoreSQLite_Tasks.Models
 {
     public class TaskPriority
     {

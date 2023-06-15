@@ -1,4 +1,4 @@
-﻿<Window x:Class="EFCore_Tasks.GUI.TaskDetailsWindow"
+﻿<Window x:Class="EFCoreSQLite_Tasks.GUI.TaskDetailsWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:local="clr-namespace:EFCore_Tasks.GUI"
